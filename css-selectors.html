@@ -15,38 +15,51 @@
 </head>
 <html>
     <body>
-        <table>
+        <table style="width: 60%;">
             <tr>
                 <th id="blueit">Selector Syntax</th>
                 <th>Description</th>
+                <th>Explanation</th>
             </tr>
             <tr>
                 <td id="blueit">a, b</td>
                 <td>Multiple element selector</td>
+                <td>I want styling to apply to both of these things, the descendant</td>
             </tr>
             <tr>
                 <td id="blueit">a b</td>
                 <td>Descendant selector</td>
+                <td>I want to select everything contained within something else</td>
             </tr>
             <tr>
                 <td id="blueit">a > b</td>
                 <td>Child selector</td>
+                <td>immediate child for immediate children but not grandchildren
+                        or great grandchildren of an element</td>
             </tr>
             <tr>
                 <td id="blueit">a+b</td>
                 <td>Adjacent Sibling selector</td>
+                <td>something that comes immediately after something else-- so
+                        two elements that are sisters to each other in the tree rather than one
+                        being the parent or containing the other</td>
             </tr>
             <tr>
                 <td id="blueit">[a=b]</td>
                 <td>Attribute selector</td>
+                <td>attribute selector that let us say that inputs that are numbers
+                        should be treated as different from text inputs</td>
             </tr>
             <tr>
                 <td id="blueit">a:b</td>
                 <td>Pseudoclass selector</td>
+                <td>things like when I'm hovering over an element,</td>
             </tr>
             <tr>
                 <td id="blueit">a::b</td>
                 <td>Pseudoelement selector</td>
+                <td>before the contents of a page
+                        or after a contents of the page</td>
             </tr>
         </table>
     </body>
