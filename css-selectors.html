@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<head>
+    <title>CSS Selectors Recap</title>
+    <style>
+        th, td {
+            padding: 10px;
+        }
+        table, th, td {
+            border: 1px solid black;
+        }
+        #blueit {
+            background-color: lightblue;
+        }
+    </style>
+</head>
+<html>
+    <body>
+        <table>
+            <tr>
+                <th id="blueit">Selector Syntax</th>
+                <th>Description</th>
+            </tr>
+            <tr>
+                <td id="blueit">a, b</td>
+                <td>Multiple element selector</td>
+            </tr>
+            <tr>
+                <td id="blueit">a b</td>
+                <td>Descendant selector</td>
+            </tr>
+            <tr>
+                <td id="blueit">a > b</td>
+                <td>Child selector</td>
+            </tr>
+            <tr>
+                <td id="blueit">a+b</td>
+                <td>Adjacent Sibling selector</td>
+            </tr>
+            <tr>
+                <td id="blueit">[a=b]</td>
+                <td>Attribute selector</td>
+            </tr>
+            <tr>
+                <td id="blueit">a:b</td>
+                <td>Pseudoclass selector</td>
+            </tr>
+            <tr>
+                <td id="blueit">a::b</td>
+                <td>Pseudoelement selector</td>
+            </tr>
+        </table>
+    </body>
+</html>
